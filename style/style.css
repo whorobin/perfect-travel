@@ -155,6 +155,44 @@ nav a {
     background-color: rgba(5, 5, 92, 0.247);
 }
 
+/* discounts section  */
+.discounts-container {
+    background-image: url('../Images/discounts/Group_39.png');
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    /* padding: 75%; */
+    /* border-radius: 20px; */
+    /* margin-top: 10px; */
+}
+
+.discounts-card {
+    border-radius: 8px;
+    background-color: #ffffffb9;
+    width: 50%;
+    padding: 30px;
+    margin-left: 43%;
+}
+
+.discounts-container2 {
+    background-image: url('../Images/discounts/Group_40.png');
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.discounts-card2 {
+    border-radius: 8px;
+    background-color: #ffffffb9;
+    width: 50%;
+    padding: 30px;
+    margin-right: 43%;
+}
+
+
+
 
 
 /* Responsive  */
@@ -198,6 +236,27 @@ nav a {
     .choose-card-content {
         grid-template-columns: 1fr;
         padding: 20px;
+    }
+
+    /* discounts section  */
+    .discounts-container {
+        margin: 10px;
+        padding: 30px;
+    }
+
+    .discounts-card {
+        margin: auto;
+        width: 70%;
+    }
+
+    .discounts-container2 {
+        margin: 10px;
+        padding: 30px;
+    }
+
+    .discounts-card2 {
+        margin: auto;
+        width: 70%;
     }
 }
 
@@ -243,5 +302,7 @@ nav a {
         grid-template-columns: 1fr;
         padding: 20px;
     }
+
+    /* discounts section  */
 
 }
