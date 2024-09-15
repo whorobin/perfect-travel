@@ -1,0 +1,160 @@
+body {
+    /* font css link  */
+    font-family: 'Poppins', sans-serif;
+    width: 1170px;
+    margin: auto;
+}
+
+/* share style */
+.btn-primary {
+    color: #FF5400;
+}
+
+.btn-white {
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 1.2rem;
+    border: 0;
+    cursor: pointer;
+    gap: 20px;
+    color: #131318a9;
+}
+
+.btn-orange {
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 1.2rem;
+    border: 0;
+    cursor: pointer;
+    gap: 20px;
+    color: #FFFFFF;
+    background-color: #FF5400;
+}
+
+/* .btn-white {
+    border-radius: 8px;
+    background-color: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    color: #FFF;
+    border: 0;
+    cursor: pointer;
+} */
+
+/* *****header section**** */
+/* navber part  */
+
+.logo-container {
+    display: flex;
+    gap: 15px;
+}
+
+.travel {
+    color: #FF5400;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+}
+
+
+nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #424247;
+}
+
+/* banner  */
+.banner-container {
+    background-image: url('../Images/Group_13.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 75px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.banner-title {
+    color: #442626;
+    font-size: 2rem;
+}
+
+.banner-discription {
+    color: #FFFFFF;
+    margin-top: 1px;
+}
+
+.travel-card {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* Responsive  */
+/* mobile  */
+@media screen and (max-width:576px) {
+    body {
+        width: 100%;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    /* 
+    nav a {
+        flex-direction: column;
+    } */
+
+
+    /* banner  */
+
+    .banner-container {
+        margin: 10px;
+        padding: 0px;
+        bottom: 50px;
+    }
+
+    .travel-card {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}
+
+/* table */
+@media screen and (min-width:576px) and (max-width:960px) {
+    body {
+        width: 90%;
+        padding: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        padding: 5px;
+    }
+
+    /* banner  */
+    .banner-container {
+        margin: 10px;
+        padding: 0px;
+        bottom: 50px;
+    }
+
+    .travel-card {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+}
