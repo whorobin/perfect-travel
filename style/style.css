@@ -118,6 +118,44 @@ nav a {
     margin-bottom: 20px;
 }
 
+/* choose us section  */
+.choose-container {
+    text-align: center;
+}
+
+.choose-card-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.choose-card {
+    border-radius: 8px;
+    padding: 30px;
+
+}
+
+.choose-card img {
+    width: 4rem;
+}
+
+.hotel-color {
+    background-color: #fbb46336;
+}
+
+.service-color {
+    background-color: #29cdf63a;
+}
+
+.guarantee-color {
+    background-color: #e9444438;
+}
+
+.special-color {
+    background-color: rgba(5, 5, 92, 0.247);
+}
+
+
 
 /* Responsive  */
 /* mobile  */
@@ -156,6 +194,11 @@ nav a {
         height: auto;
     }
 
+    /* choose us section  */
+    .choose-card-content {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
 }
 
 /* table */
@@ -193,6 +236,12 @@ nav a {
     .tour-container img {
         width: 100%;
         height: auto;
+    }
+
+    /* choose us section  */
+    .choose-card-content {
+        grid-template-columns: 1fr;
+        padding: 20px;
     }
 
 }
