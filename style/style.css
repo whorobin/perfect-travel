@@ -10,36 +10,23 @@ body {
     color: #FF5400;
 }
 
-.btn-white {
-    border-radius: 8px;
-    padding: 20px 25px;
-    font-size: 1.2rem;
-    border: 0;
-    cursor: pointer;
-    gap: 20px;
-    color: #131318a9;
+.section-title {
+    font-size: 2rem;
 }
 
-.btn-orange {
+.section-discription {
+    color: #424247;
+}
+
+.btn-primary {
     border-radius: 8px;
-    padding: 20px 25px;
-    font-size: 1.2rem;
-    border: 0;
-    cursor: pointer;
-    gap: 20px;
-    color: #FFFFFF;
     background-color: #FF5400;
-}
-
-/* .btn-white {
-    border-radius: 8px;
-    background-color: #FF900E;
     padding: 20px 25px;
     font-size: 1.25rem;
     color: #FFF;
     border: 0;
     cursor: pointer;
-} */
+}
 
 /* *****header section**** */
 /* navber part  */
@@ -87,10 +74,6 @@ nav a {
     margin-top: 10px;
 }
 
-.banner-title {
-    color: #442626;
-    font-size: 2rem;
-}
 
 .banner-discription {
     color: #FFFFFF;
@@ -100,6 +83,39 @@ nav a {
 .travel-card {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+}
+
+.btn-white {
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 1.2rem;
+    border: 0;
+    cursor: pointer;
+    gap: 20px;
+    color: #131318a9;
+}
+
+.btn-orange {
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 1.2rem;
+    border: 0;
+    cursor: pointer;
+    gap: 20px;
+    color: #FFFFFF;
+    background-color: #FF5400;
+}
+
+
+/* Popular Tours section */
+.tour-container {
+    display: flex;
+    margin-top: 50px;
+}
+
+.tour-content {
+    margin-right: 30px;
+    margin-bottom: 20px;
 }
 
 
@@ -114,12 +130,6 @@ nav a {
         flex-direction: column;
     }
 
-    /* 
-    nav a {
-        flex-direction: column;
-    } */
-
-
     /* banner  */
 
     .banner-container {
@@ -128,10 +138,24 @@ nav a {
         bottom: 50px;
     }
 
+    /* travel  */
     .travel-card {
         grid-template-columns: 1fr;
         padding: 10px;
     }
+
+    /* Popular Tours section */
+    .tour-container {
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .tour-container img {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 /* table */
@@ -153,8 +177,22 @@ nav a {
         bottom: 50px;
     }
 
+    /* travel  */
     .travel-card {
         grid-template-columns: 1fr;
         padding: 10px;
     }
+
+    /* Popular Tours section */
+    .tour-container {
+        flex-direction: column;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .tour-container img {
+        width: 100%;
+        height: auto;
+    }
+
 }
