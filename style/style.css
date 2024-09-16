@@ -1,11 +1,14 @@
 body {
     /* font css link  */
     font-family: 'Poppins', sans-serif;
-    width: 1170px;
-    margin: auto;
+
 }
 
 /* share style */
+.fixed-width {
+    width: 1170px;
+    margin: auto;
+}
 
 .btn-primary {
     color: #FF5400;
@@ -268,7 +271,7 @@ nav a:hover {
 /* Responsive  */
 /* mobile  */
 @media screen and (max-width:576px) {
-    body {
+    .fixed-width {
         width: 100%;
     }
 
@@ -352,7 +355,7 @@ nav a:hover {
 
 /* table */
 @media screen and (min-width:576px) and (max-width:960px) {
-    body {
+    .fixed-width {
         width: 90%;
         padding: 20px;
     }
