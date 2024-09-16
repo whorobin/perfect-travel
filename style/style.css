@@ -26,6 +26,7 @@ body {
     color: #FFF;
     border: 0;
     cursor: pointer;
+    margin: 10px 0;
 }
 
 /* *****header section**** */
@@ -62,6 +63,10 @@ nav a {
     font-size: 1rem;
     font-weight: 600;
     color: #424247;
+}
+
+nav a:hover {
+    color: #FF5400;
 }
 
 /* banner  */
@@ -195,7 +200,39 @@ nav a {
     text-align: center;
 }
 
+/* Newsletter */
+.newsletter-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    gap: 20px;
+}
 
+.form-content {
+    border: 1px solid #FF5400;
+    border-radius: 20px;
+    padding: 20px 30px;
+}
+
+.form-input {
+    border-radius: 8px;
+    padding: 20px 35px;
+    font-size: 1.2rem;
+    border: 0;
+    margin-bottom: 10px;
+    background-color: #13131817;
+}
+
+.btn-subscribe {
+    border-radius: 8px;
+    background-color: #FF5400;
+    padding: 20px 35px;
+    font-size: 1.25rem;
+    color: #FFF;
+    border: 0;
+    /* margin: 10px 0; */
+    cursor: pointer;
+}
 
 
 
@@ -263,6 +300,18 @@ nav a {
         width: 70%;
     }
 
+    /* Newsletter */
+    .newsletter-container {
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    .newsletter-container img {
+        width: 100%;
+        height: auto;
+    }
+
 }
 
 /* table */
@@ -309,5 +358,25 @@ nav a {
     }
 
     /* discounts section  */
+
+    /* Newsletter */
+    .newsletter-container {
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+    .newsletter-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .form-input {
+        padding: 20px 90px;
+    }
+
+    .btn-subscribe {
+        padding: 20px 120px;
+    }
 
 }
