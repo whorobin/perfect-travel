@@ -6,6 +6,7 @@ body {
 }
 
 /* share style */
+
 .btn-primary {
     color: #FF5400;
 }
@@ -235,6 +236,34 @@ nav a:hover {
 }
 
 
+/* footer section */
+.footer-container {
+    text-align: center;
+    background-color: #1313181c;
+    padding: 30px 240px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-icon img {
+    width: 1.8rem;
+}
+
+.copy-right {
+    margin: 80px 0px;
+}
+
+
 
 /* Responsive  */
 /* mobile  */
@@ -312,6 +341,13 @@ nav a:hover {
         height: auto;
     }
 
+
+    /* footer section */
+    .footer-container {
+        padding: 20px;
+    }
+
+
 }
 
 /* table */
@@ -378,5 +414,11 @@ nav a:hover {
     .btn-subscribe {
         padding: 20px 120px;
     }
+
+    /* footer section */
+    .footer-container {
+        padding: 20px;
+    }
+
 
 }
